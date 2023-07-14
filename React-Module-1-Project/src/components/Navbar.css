@@ -1,0 +1,42 @@
+.navbar {
+  /* width: 1280px; */  
+  margin: auto;
+  padding: 0;
+}
+
+.navbar-brand .navLogo {
+  width: 11rem;
+  height: 3.25rem;
+}
+.navbar-nav a {
+  margin: 0 20px;
+  color: white;
+
+}
+
+.navbar-nav a:hover {
+    color: var(--White);
+    text-decoration: underline;
+      font-weight: var(--fw-bold);
+}
+
+/* Media Queries */
+
+@media (max-width: 426px) {
+
+.navbar-brand .navLogo {
+  width: 5rem;
+  height: 1.5rem;
+  
+}
+    .navbar {
+       display: flex;
+       flex-direction: row;
+    }
+
+    .navbar-nav a {
+  margin: 0 10px;
+  color: white;
+
+}
+}

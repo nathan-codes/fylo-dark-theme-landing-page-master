@@ -1,0 +1,12 @@
+
+
+
+
+.header{
+  background-color: var(--Dark-Blue-intro);  
+}
+
+body {
+    font-family: var(--ff-main2);
+    font-weight: var(--fw-reg);
+}

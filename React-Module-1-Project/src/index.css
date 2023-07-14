@@ -86,4 +86,18 @@ h6 {
   --Cyan: hsl(176, 68%, 64%); 
   --Blue: hsl(198, 60%, 50%) ;
   --LightRed: hsl(0, 100%, 63%);
+
+  --White: hsl(0, 0%, 100%);
+
+  /* Fonts */
+  --ff-main: 'Open Sans',sans-serif;
+  --ff-main2: 'Raleway',sans-serif;
+  --fw-bold: 700;
+  --fw-reg:400;
+
+
 }
+
+
+
+
