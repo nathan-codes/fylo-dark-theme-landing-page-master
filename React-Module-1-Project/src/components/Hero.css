@@ -3,7 +3,6 @@
   margin: 0 1.2rem;
   color: var(--White);
   max-width: 720px;
-
   margin: 0 auto;
 }
 .heroImage {
@@ -19,28 +18,12 @@
 }
 
 .Hero p {
-    /* max-width: 36.8125rem; */
-    margin: 2rem auto;
+  /* max-width: 36.8125rem; */
+  margin: 2rem auto;
   font-family: Open Sans;
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 25px; /* 150% */
-
-
-}
-
-.Hero .btn {
-  width: 240px;
-  height: 48px;
-  border-radius: 30px;
-
-  color: #fff;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-
-  background: linear-gradient(144deg, #63e1d9 0%, #34a0cd 100%);
 }
 
 @media (max-width: 600px) {
@@ -58,7 +41,4 @@
     font-size: 0.875rem;
     line-height: 1.3125rem; /* 150% */
   }
-
-
-  
 }

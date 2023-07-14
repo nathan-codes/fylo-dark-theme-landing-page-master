@@ -1,5 +1,6 @@
 import "./Hero.css";
 import heroImage from "../images/illustration-intro.png";
+import Button from "./Button";
 
 function Hero() {
   return (
@@ -13,9 +14,7 @@ function Hero() {
         them wherever you need, share and collaborate with friends family, and
         co-workers.
       </p>
-      <button type="button" className="btn">
-        Get Started
-      </button>
+    <Button />
     </section>
   );
 }
