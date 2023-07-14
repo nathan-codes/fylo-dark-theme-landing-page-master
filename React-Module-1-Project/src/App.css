@@ -4,9 +4,12 @@
 
 .header{
   background-color: var(--Dark-Blue-intro);  
+  height: 50vh;
+  border: 1px solid var(--Dark-Blue-intro)
 }
 
 body {
     font-family: var(--ff-main2);
     font-weight: var(--fw-reg);
+    background-color: var(--Dark-Blue-intro);
 }
