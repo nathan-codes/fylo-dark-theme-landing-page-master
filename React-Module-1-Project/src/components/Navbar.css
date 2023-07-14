@@ -1,7 +1,7 @@
 .navbar {
   /* width: 1280px; */  
-  margin: 2rem auto;
-  padding: 0;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .navbar-brand .navLogo {
@@ -27,7 +27,7 @@ line-height: normal;
 
 /* Media Queries */
 
-@media (max-width: 426px) {
+@media (max-width: 600px) {
 
 .navbar-brand .navLogo {
   width: 5rem;
@@ -35,8 +35,11 @@ line-height: normal;
   
 }
     .navbar {
+        margin-top: 1rem;
        display: flex;
        flex-direction: row;
+       padding: 0;
+       
     }
 
     .navbar-nav a {
