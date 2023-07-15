@@ -43,15 +43,15 @@ function Footer() {
           </div>
           <div className="col-12 col-lg-2 my-2">
             <span className="socialIcons">
-              <i class="fa-brands fa-facebook-f "></i>
+              <i className="fa-brands fa-facebook-f "></i>
             </span>
 
             <span className="socialIcons">
-              <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i>
             </span>
 
             <span className="socialIcons">
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </span>
           </div>
         </div>

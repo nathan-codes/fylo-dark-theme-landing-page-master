@@ -1,5 +1,7 @@
 .Footer {
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
+    background: #0B1524;
+    padding-top: 2rem;
 }
 
 .Footer p{
