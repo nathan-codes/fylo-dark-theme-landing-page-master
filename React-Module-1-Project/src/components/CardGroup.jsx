@@ -30,8 +30,8 @@ const data = [
 ];
 
 function CardGroup() {
-  const cardGroup = data.map((card) => {
-    return <Card title={card.title} image={card.image} text={card.text} />
+  const cardGroup = data.map((card,index) => {
+    return <Card key={index} title={card.title} image={card.image} text={card.text} />
   })
   return (
     <section className="CardGroup">

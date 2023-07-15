@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CardGroup from "./components/CardGroup";
+import InfoSection from "./components/InfoSection";
 
 
 import "./App.css";
@@ -14,6 +15,8 @@ function App() {
         <Navbar />
         <Hero />
         <CardGroup />
+        <InfoSection />
+
     
       </header>
     </>

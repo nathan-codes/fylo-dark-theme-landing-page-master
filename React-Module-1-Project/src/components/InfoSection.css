@@ -1,0 +1,100 @@
+.InfoSection {
+  margin: 6rem 2.25rem;
+  max-width: 1000px;
+}
+
+.InfoSection img {
+  margin-bottom: 3rem;
+}
+
+.InfoSection div.textSection {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.InfoSection h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 133.333% */
+}
+
+.InfoSection p {
+  /* width: 20rem; */
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3125rem; /* 150% */
+  margin: 1rem auto;
+}
+
+.InfoSection a {
+  color: #62e0d9;
+  font-family: Open Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 0;
+}
+
+.InfoSection span.link {
+  border-bottom: 3px solid #62e0d9;
+  display: flex;
+  width: 9rem;
+  padding: 0;
+}
+
+.InfoSection span.link img {
+  margin: 3px 0.44rem;
+  padding: 0;
+}
+
+/* Adding Responsivness */
+
+@media (min-width: 700px) {
+  .InfoSection {
+    display: flex;
+    margin: 0 3rem;
+    
+    margin: 0 auto;
+  }
+  .InfoSection div.imageSection {
+    max-width: 43%;
+  }
+  .InfoSection img{
+    display: inline-block;
+    margin: auto;
+   
+  
+  }
+  .InfoSection div.textSection {
+ 
+    width: 50%;
+    margin: auto;
+  }
+
+  .InfoSection h2 {
+    text-align: start;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+  }
+  .InfoSection p {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
