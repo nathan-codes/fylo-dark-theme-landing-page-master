@@ -1,0 +1,62 @@
+.Footer {
+    margin: 0 2rem;
+}
+
+.Footer p{
+  text-align: start;
+}
+
+.Footer .footerLogo {
+  width: 6.75rem;
+  height: 1.9375rem;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+.spanGroup {
+  display: flex;
+}
+
+.spanGroup img {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+.Footer .locationText {
+  text-align: start;
+  width: 21.1875rem;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  margin-left: 20px;
+}
+
+.Footer .details {
+  display: flex;
+  
+}
+
+.details img {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.socialIcons {
+  width: 1.69131rem;
+  height: 1.6875rem;
+  flex-shrink: 0;
+  border: 1px solid white;
+  padding: .5rem;
+  border-radius: 100%;
+  margin: 0 .4rem;
+}
+
+.socialIcons .fan {
+  width: 0.38056rem;
+  height: 0.80156rem;
+  flex-shrink: 0;
+}

@@ -4,6 +4,7 @@ import CardGroup from "./components/CardGroup";
 import InfoSection from "./components/InfoSection";
 import CommentSection from "./components/CommentSection";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         <InfoSection />
         <CommentSection />
         <Contact />
+        <Footer />
       </header>
     </>
   );
