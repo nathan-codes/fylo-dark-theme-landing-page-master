@@ -1,0 +1,57 @@
+.Contact {
+  text-align: center;
+  margin: 2rem auto;
+  width: 336px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #1b2330;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 40px 28px;
+}
+
+.contact-title {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+
+.contact-text {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.Contact input {
+  margin-top: 32px;
+  margin-bottom: 24px;
+
+  width: 240px;
+  height: 48px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: black;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (min-width: 700px) {
+  .Contact {
+    width: 700px;
+    margin: 2rem auto;
+  }
+ 
+
+  .Contact input {
+    width: 22rem;
+    margin-right: 1rem ;
+  }
+}

@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import CardGroup from "./components/CardGroup";
 import InfoSection from "./components/InfoSection";
 import CommentSection from "./components/CommentSection";
+import Contact from "./components/Contact";
 
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
         <CardGroup />
         <InfoSection />
         <CommentSection />
+        <Contact />
       </header>
     </>
   );

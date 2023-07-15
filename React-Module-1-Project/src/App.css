@@ -11,6 +11,6 @@
 body {
     font-family: var(--ff-main2);
     font-weight: var(--fw-reg);
-    background-color: var(--Dark-Blue-intro);
+    background-color: #181F2B;
     color: var(--White);
 }
